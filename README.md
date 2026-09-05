@@ -379,90 +379,20 @@ Credit card issuers and payment networks face significant challenges in optimizi
 Credit-Card-Analysis/
 
 ├── data/
-│   ├── raw/
-│   │   └── credit_card_transactions_raw.csv
-│   └── processed/
-│       └── credit_card_transactions_cleaned.csv
+│   └── Credit card transactions.csv
 │
 ├── dashboards/
-│   ├── Credit_Card_Analysis.pbix
-│   ├── Executive_Dashboard.pbix
-│   ├── Geographic_Analysis.pbix
-│   ├── Customer_Segmentation.pbix
-│   └── Temporal_Trends.pbix
+│   └── Credit_Card_Analysis.pbix
 │
 ├── images/
-│   ├── Dashboard_Overview.png
-│   ├── Geographic_Heatmap.png
-│   ├── Gender_Analysis.png
-│   ├── Card_Type_Distribution.png
-│   └── Seasonal_Trends.png
-│
-├── analysis/
-│   ├── Geographic_Analysis.xlsx
-│   ├── Demographic_Breakdown.xlsx
-│   ├── Category_Performance.xlsx
-│   └── Seasonal_Analysis.xlsx
+│   └── dashboard image.png
 │
 ├── presentation/
 │   └── Credit_Card_Analysis_Presentation.pptx
 │
 ├── README.md (this file)
-├── METHODOLOGY.md
 └── requirements.txt
 ```
-
----
-
-## Dashboard Features
-
-### Dashboard 1: Executive Overview
-- Total spending and transaction volume KPIs
-- Geographic revenue distribution by city
-- Gender-based spending split
-- Card type market share
-- Seasonal trend indicators
-- YoY growth metrics
-
-### Dashboard 2: Geographic Analysis
-- City-by-city spend and transaction count
-- Average transaction value by city
-- Geographic concentration metrics
-- High-ATV vs high-volume city identification
-- Regional performance heatmap
-- City tier segmentation (metro, tier-2, tier-3)
-
-### Dashboard 3: Customer Demographics & Gender Analysis
-- Gender-based spending split (value and percentage)
-- Category-wise gender preference breakdown
-- Gender-specific city spending patterns
-- Average transaction value by gender
-- Gender trends over time
-- Demographic opportunity identification
-
-### Dashboard 4: Card Type & Product Performance
-- Card type transaction volume distribution
-- Card type spending value contribution
-- Category preferences by card type
-- Card tier upsell analysis
-- Cross-card migration patterns
-- Product performance scorecard
-
-### Dashboard 5: Category & Spending Insights
-- Category spending distribution (pie and bar charts)
-- Category-wise gender breakdown
-- Category-wise city breakdown
-- Avg transaction value by category
-- Category growth trends
-- Category penetration analysis
-
-### Dashboard 6: Temporal & Seasonal Analysis
-- Month-over-month spending trends
-- Year-over-year comparison
-- Seasonal index and variance analysis
-- Peak and trough period identification
-- Monthly transaction volume trends
-- Forecasted seasonal patterns
 
 ---
 
